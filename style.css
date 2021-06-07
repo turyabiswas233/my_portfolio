@@ -633,12 +633,12 @@ div.footer_link a i:hover {
         height: 25%;
         width: 70%;
     }
-/*
+
     #about,
     #skills,
     #work {
-        height: 68.5vh;
-    }*/
+        height: 100%;
+    }
 
     #skills section.skills_info article {
         padding: 2vh 0;
