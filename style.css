@@ -18,6 +18,7 @@ html {
     background: #ffff;
     color: var(--white);
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /*----------------------design of nav-bar---------------------*/

@@ -16,6 +16,8 @@
         integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="image\title_icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body style="height: 100%;">
@@ -52,27 +54,27 @@
     <!------------------------------------starting home-body-------------------------------------->
     <div id="home-body">
         <section id="home">
-            <div class="name_intro">
+            <div class="name_intro" data-aos="fade-up"data-aos-duration="1400" data-aos-anchor-placement="bottom-bottom">
                 <h2>Hi, <br>
-                    I'am <span>Turya</span> <br>
+                    I'm <span>Turya</span> <br>
                     Web Designer</h2>
-                <button>
+                <button data-aos="fade-up"data-aos-duration="1400" data-aos-anchor-placement="bottom-bottom">
                     <a href="#contact">Contact</a>
                 </button>
             </div>
-            <img src="image/my_pic-preview.jpg" alt="My_image.jpg">
+            <img src="image/my_pic-preview.jpg" alt="My_image.jpg" data-aos="fade-left"data-aos-duration="1400" data-aos-anchor-placement="bottom-bottom">
         </section>
 
-        <section class="con_link">
+        <section class="con_link" data-aos="fade-up"data-aos-duration="1400" data-aos-anchor-placement="bottom-bottom">
             <a href="https://facebook.com/tUrYa.biSWaS.233/"><i class="fab fa-facebook"></i></a>
             <a href="https://github.com/turyabiswas233/" target="_blank"><i class="fab fa-github"></i></a>
         </section>
     </div>
     <!------------------------end of home-body--------------------------->
     <!--````````````````` start of about section `````````````````````-->
-    <div id="about">
+    <div id="about" data-aos="fade-up"data-aos-duration="1400" data-aos-anchor-placement="top-center">
         <p class="about">About Me</p>
-        <section>
+        <section data-aos="zoom-out"data-aos-duration="900" data-aos-anchor-placement="top-center">
             <img src="image/bg_image.jpg" alt="another-image.jpg">
             <article>
                 <p><span>I'm <em>Turya Biswas.</em> </span><br><br>I am not only a web-designer but also an
@@ -83,9 +85,9 @@
     </div>
     <!--````````````````` end of about section `````````````````````-->
     <!--````````````````` start of skill section `````````````````````-->
-    <div id="skills">
+    <div id="skills" data-aos="fade-up"data-aos-duration="1400" data-aos-anchor-placement="top-center">
         <p class="skills">Skills</p>
-        <section class="skills_info">
+        <section class="skills_info" data-aos="flip-up"data-aos-duration="1000" data-aos-anchor-placement="top-center">
             <article>
                 <h2>Profesional Skills</h2>
                 <p class="info">I have been working with the skills below for the past 1 year and 4 months. If you need
@@ -112,9 +114,9 @@
     </div>
     <!--````````````````` end of skill section `````````````````````-->
     <!--````````````````` start of work section `````````````````````-->
-    <div id="work">
+    <div id="work" data-aos="fade-up"data-aos-duration="1400" data-aos-anchor-placement="top-center">
         <p class="work">Work</p>
-        <section class="work_sec">
+        <section class="work_sec" data-aos="zoom-in"data-aos-duration="700" data-aos-anchor-placement="top-center">
             <img src="image/404notfound.png" alt="404NotFound" class="first_work">
             <img src="image/MyTeamPageMaster.png" alt="MyTeamMaster" class="second_work">
             <img src="image/InteriorConsultantMaster.png" alt="InteriorConsultantMaster" class="third_work">
@@ -133,7 +135,9 @@
             <p class="copyright" style="font-size: 0.8em;">&copy; 2021 copyright TB<sub>233</sub> Portfolio</p>
         </section>
     </div>
-
+    <script>
+        AOS.init()
+    </script>
 </body>
 
 </html>
