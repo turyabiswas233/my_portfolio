@@ -4,16 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-}
-
 div.lightBTN {
     height: 30px;
     width: 60px;
     border-radius: 20px;
-    margin: 40vh auto 0;
     background-color: #151515;
     position: relative;
     transition: background-color 50ms ease-in;
@@ -27,8 +21,4 @@ div.child {
     width: 25px;
     border-radius: 50%;
     transition: transform 150ms ease-in;
-}
-
-h2 {
-    margin: 10vh auto;
 }
